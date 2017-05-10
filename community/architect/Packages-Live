@@ -1,8 +1,3 @@
-KERNEL-broadcom-wl
-KERNEL-ndiswrapper
-KERNEL-r8168
-KERNEL-rt3562sta
-KERNEL-virtualbox-guest-modules
 maia-console
 manjaro-architect-launcher
 manjaro-hotfixes
@@ -12,17 +7,7 @@ nbd
 >openrc openrc-settingsd
 >openrc manjaro-live-openrc
 >openrc networkmanager-openrc
-open-vm-tools
 >systemd manjaro-live-systemd
 networkmanager
 terminus-font
-virtualbox-guest-utils
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-keyboard
->systemd xf86-input-libinput
->openrc xf86-input-libinput-nosystemd
-xf86-input-mouse
-xf86-input-vmmouse
-xf86-input-void
 >manjaro grub-theme-live-manjaro
