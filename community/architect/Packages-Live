@@ -3,7 +3,6 @@ manjaro-architect-launcher
 manjaro-hotfixes
 mkinitcpio-nfs-utils
 nbd
->openrc elogind-openrc
 >openrc openrc-settingsd
 >openrc manjaro-live-openrc
 >openrc networkmanager-openrc

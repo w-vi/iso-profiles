@@ -56,7 +56,7 @@ ntfs-3g
 >openrc cronie-openrc
 >openrc cryptsetup-openrc
 >openrc dbus-openrc
->openrc dbus-elogind
+>openrc elogind-openrc
 >openrc device-mapper-openrc
 >openrc dhcpcd-openrc
 >openrc eudev-systemd

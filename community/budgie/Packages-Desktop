@@ -134,7 +134,6 @@ yelp
 >extra gtk3-print-backends
 >openrc alsa-utils-openrc
 >openrc avahi-openrc
->openrc elogind-openrc
 >openrc openrc-settingsd
 >openrc cronjobs
 >openrc displaymanager-openrc

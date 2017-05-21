@@ -13,7 +13,6 @@ bison
 blueman
 bmenu
 clipit
->openrc elogind-openrc
 >openrc openrc-settingsd
 dfc
 >openrc displaymanager-openrc
