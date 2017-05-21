@@ -102,20 +102,16 @@ iso-profiles
 >extra
 ~~~
 
-######* Packages-Root
-* Contains root image packages
-* ideally no xorg
-
 ######* Packages-Desktop
 * Contains the desktop image packages
 * desktop environment packages go here
 
-######* Packages-Mhwd
-* Contains the MHWD driver packages repo
-
 ######* Packages-Live
 * Contains packages you only want in live session but not installed on the target system with installer
-* default files are in shared folder and can be symlinked or defined in a real file
+
+
+####### default files are in shared folder and can be symlinked or defined in a real file
+
 
 ######* buildiso can be configured to use custom repos.
 
