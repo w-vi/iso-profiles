@@ -42,7 +42,7 @@ lsb-release
 man-db
 manjaro-firmware
 >manjaro manjaro-release
-manjaro-system
+manjaro-system-ng
 man-pages
 memtest86+
 mhwd

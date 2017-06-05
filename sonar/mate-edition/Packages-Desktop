@@ -75,7 +75,6 @@ nss-mdns
 ## Misc
 >openrc openrc-settingsd
 >openrc displaymanager-openrc
-manjaro-hotfixes
 >openrc accountsservice-elogind
 >openrc upower-nosystemd
 >openrc udisks2-elogind
