@@ -8,9 +8,10 @@ hexchat
 gthumb
 evince
 firefox
-#gdm
-lightdm
-lightdm-slick-greeter
+gdm
+#>extra gdm3setup
+#lightdm
+#lightdm-slick-greeter
 gedit
 gnome-backgrounds
 gnome-calculator
@@ -25,6 +26,7 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
+gnome-shell-extension-manjaro-update
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
@@ -33,7 +35,8 @@ gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
 gnome-wallpapers
-gnome-initial-setup
+#gnome-screensaver #if use lightdm we need a screensaver
+#gnome-initial-setup
 file-roller
 gparted
 grilo-plugins
@@ -58,9 +61,9 @@ manjaro-alsa
 manjaro-artwork
 manjaro-wallpapers-17.0
 manjaro-browser-settings
-manjaro-gnome-settings-dev
-manjaro-pulse
 manjaro-settings-manager-notifier
+manjaro-gnome-settings
+manjaro-pulse
 manjaro-hello
 mesa-demos
 mobile-broadband-provider-info
@@ -121,6 +124,7 @@ xorg-xinit
 yelp
 
 #extra depends for file-roller
+>extra gnome-getting-started-docs
 >extra p7zip
 >extra unrar
 >extra unace
@@ -142,18 +146,20 @@ yelp
 >extra steam-manjaro
 >extra manjaro-printer
 #AUR complete support ( base devel + yaourt )
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra >multilib gcc-multilib
->extra libtool
->extra m4
->extra make
->extra patch
->extra subversion
->extra yaourt
+#>extra autoconf
+#>extra automake
+#>extra binutils
+#>extra bison
+#>extra fakeroot
+#>extra flex
+#>extra gcc
+#>extra >multilib gcc-libs-multilib
+#>extra >multilib gcc-multilib
+#>extra libtool
+#>extra m4
+#>extra make
+#>extra patch
+#>extra subversion
+#>extra yaourt
+manjaro-aur-support #introduce for testing in community
 

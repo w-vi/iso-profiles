@@ -172,6 +172,7 @@ libyaml
 >extra fakeroot
 >extra flex
 >extra gcc
+>extra >multilib gcc-libs-multilib
 >extra >multilib gcc-multilib
 >extra libtool
 >extra m4
@@ -230,7 +231,7 @@ ibus-qt
 >extra purple-skypeweb #cloud skype support
 >extra prpltwtr #twitter support
 >extra pidgin-otr #off the record, encrypted and anonymous communication support
->extra telegram-purple #telegram support
+#>extra telegram-purple #telegram support
 #additional plugins for pidgin
 >extra purple-plugin-pack
 #youtube viewer and downloader
